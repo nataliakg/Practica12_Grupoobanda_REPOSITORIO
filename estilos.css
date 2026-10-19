@@ -1,0 +1,46 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 16px auto;
+}
+
+video,
+audio {
+    display: block;
+    max-width: 100%;
+    margin: 16px auto;
+}
+
+p {
+    margin: 20px 0;
+}
+
+a {
+    color: #2457a7;
+}
+
+a:hover {
+    color: #16396e;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 16px;
+    }
+}
